@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sportora – Sports Explained: Games, Fitness Basics & Game Day Guides</title>
+<meta name="description" content="Sportora is an educational sports website with clear guides on team and individual sports, fitness basics, safe play, sportsmanship and the story of modern sport.">
+
+<!-- ===== GOOGLE ADSENSE CODE (head me sirf ek baar) =====
+     ca-pub-XXXXXXXXXXXXXXXX ki jagah apni AdSense Publisher ID dalo -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+
+<style>
+:root{--navy:#10223f;--coral:#ff5a4e;--sky:#38bdf8;--cream:#fff8f0;--ink:#1b2a41;--mut:#5f6c80;--line:#eadfce;--sun:#ffc83d}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Segoe UI",Roboto,Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.75;font-size:17px}
+a{color:var(--coral);text-decoration:none}
+.wrap{width:100%;max-width:1360px;margin:0 auto;padding:0 32px}
+/* nav */
+header{background:var(--cream);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+.bar{display:flex;align-items:center;justify-content:space-between;height:74px}
+.logo{display:flex;align-items:center;gap:10px;font-size:27px;font-weight:900;color:var(--navy);letter-spacing:-.5px}
+.logo span{color:var(--coral)}
+nav a{color:var(--navy);margin-left:26px;font-weight:700;font-size:15px}
+nav a:hover{color:var(--coral)}
+nav a.cta{background:var(--navy);color:#fff;padding:9px 20px;border-radius:30px}
+/* hero */
+.hero{padding:80px 0 70px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}
+.eyebrow{display:inline-block;color:var(--coral);font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:13px;margin-bottom:14px}
+.hero h1{font-size:clamp(38px,5.4vw,70px);line-height:1.05;color:var(--navy);font-weight:900;margin-bottom:20px}
+.hero h1 u{text-decoration:none;background:linear-gradient(transparent 62%,var(--sun) 62%)}
+.hero p{font-size:20px;color:var(--mut);max-width:620px;margin-bottom:30px}
+.btn{display:inline-block;background:var(--coral);color:#fff;padding:15px 36px;border-radius:50px;font-weight:800}
+.btn:hover{background:#e8453a}
+.btn.o{background:transparent;border:2px solid var(--navy);color:var(--navy);margin-left:12px}
+.collage{position:relative;height:420px}
+.collage div{position:absolute;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 14px 30px rgba(16,34,63,.15)}
+.c1{width:230px;height:230px;background:var(--sky);left:10%;top:0;font-size:96px}
+.c2{width:190px;height:190px;background:var(--coral);right:2%;top:60px;font-size:80px}
+.c3{width:170px;height:170px;background:var(--sun);left:0;bottom:20px;font-size:72px}
+.c4{width:150px;height:150px;background:var(--navy);right:18%;bottom:0;font-size:64px}
+/* ribbon */
+.ribbon{background:var(--navy);color:#fff}
+.ribbon .wrap{display:flex;flex-wrap:wrap;justify-content:space-around;gap:10px;padding:20px 32px;font-weight:700;letter-spacing:1px;text-transform:uppercase;font-size:14px}
+section{padding:76px 0}
+h2{font-size:38px;font-weight:900;color:var(--navy);line-height:1.15;margin-bottom:12px;letter-spacing:-.5px}
+.lead{color:var(--mut);max-width:800px;margin-bottom:40px}
+/* alternating category rows */
+.cat{display:grid;grid-template-columns:260px 1fr;gap:36px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:24px;padding:26px;margin-bottom:22px}
+.cat:nth-child(even){grid-template-columns:1fr 260px}
+.cat:nth-child(even) .pic{order:2}
+.pic{height:190px;border-radius:18px;display:flex;align-items:center;justify-content:center;font-size:84px}
+.p1{background:linear-gradient(135deg,#bae6fd,#38bdf8)}.p2{background:linear-gradient(135deg,#fecaca,#ff5a4e)}.p3{background:linear-gradient(135deg,#fde68a,#ffc83d)}.p4{background:linear-gradient(135deg,#c7d2fe,#6366f1)}
+.cat h3{font-size:26px;color:var(--navy);margin-bottom:6px}
+.cat p{color:var(--mut)}
+.chips span{display:inline-block;background:var(--cream);border:1px solid var(--line);border-radius:30px;padding:3px 14px;margin:8px 8px 0 0;font-size:14px;font-weight:700;color:var(--navy)}
+/* game day guide */
+.guide{background:var(--navy);color:#e3ebf7}
+.guide h2{color:#fff}
+.guide .lead{color:#b8c5db}
+.gg{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.gc{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:26px}
+.gc b.n{display:inline-flex;width:38px;height:38px;border-radius:50%;background:var(--sun);color:var(--navy);align-items:center;justify-content:center;font-weight:900;margin-bottom:12px}
+.gc h3{color:#fff;font-size:21px;margin-bottom:6px}
+.gc p{font-size:15.5px;color:#c6d3e8}
+/* long article */
+.article{max-width:900px;margin:0 auto}
+.article h2{font-size:32px;margin-top:10px}
+.article h3{font-size:23px;color:var(--navy);margin:28px 0 8px}
+.article p{margin-bottom:16px}
+.article ul{margin:0 0 16px 22px}.article li{margin-bottom:6px}
+.quote{background:#fff;border-left:6px solid var(--coral);padding:18px 24px;border-radius:10px;font-size:19px;color:var(--navy);margin:24px 0}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:15px;border:1px solid var(--line)}
+th{background:var(--navy);color:#fff;text-align:left;padding:12px}
+td{padding:12px;border-top:1px solid var(--line)}
+/* ads */
+.ad{margin:32px auto;text-align:center;max-width:100%;min-height:100px}
+/* faq */
+.faq{background:#fff}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+details{background:var(--cream);border:1px solid var(--line);border-radius:14px;padding:16px 20px}
+summary{font-weight:800;cursor:pointer;color:var(--navy)}
+details p{margin-top:10px;color:var(--mut);font-size:16px}
+/* disclaimer */
+.disc{background:#fff3d6;border-top:4px solid var(--sun);padding:52px 0}
+.disc h2{font-size:26px}
+.disc p{font-size:15.5px;color:#5a4a1e;max-width:1100px}
+footer{background:var(--navy);color:#9fb0cc;padding:44px 0 22px;font-size:15px;text-align:center}
+footer a{color:var(--sun);margin:0 10px}
+footer p{margin:10px auto;max-width:900px}
+@media(max-width:900px){.hero .wrap,.cat,.cat:nth-child(even),.faq-grid,.gg{grid-template-columns:1fr}.cat:nth-child(even) .pic{order:0}.collage{height:320px}.c1{width:170px;height:170px;font-size:70px}.c2{width:140px;height:140px;font-size:56px}.c3{width:120px;height:120px;font-size:50px}.c4{width:110px;height:110px;font-size:44px}nav{display:none}h2{font-size:30px}.hero{padding:50px 0}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="wrap bar">
+  <a class="logo" href="#top" aria-label="Sportora home">
+    <svg width="44" height="44" viewBox="0 0 64 64" aria-hidden="true">
+      <circle cx="32" cy="32" r="30" fill="#ff5a4e"/>
+      <path d="M32 6v52M6 32h52" stroke="#fff" stroke-width="3"/>
+      <path d="M14 14c10 10 10 26 0 36M50 14c-10 10-10 26 0 36" stroke="#10223f" stroke-width="3" fill="none"/>
+      <circle cx="32" cy="32" r="7" fill="#ffc83d"/>
+    </svg>
+    Sport<span>ora</span>
+  </a>
+  <nav><a href="#categories">Sports</a><a href="#gameday">Game Day</a><a href="#read">Read</a><a href="#faq">FAQ</a><a class="cta" href="#disclaimer">Disclaimer</a></nav>
+</div>
+</header>
+
+<main id="top">
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Sports explained simply</span>
+      <h1>Understand the <u>game</u> you love, and the ones you have yet to try.</h1>
+      <p>Sportora is an educational website about sport. We explain how popular games work, how to prepare your body safely and why fair play matters, in clear language for fans, players and families.</p>
+      <a class="btn" href="#categories">Explore Sports</a><a class="btn o" href="#read">Read the Guide</a>
+    </div>
+    <div class="collage" aria-hidden="true">
+      <div class="c1">⚽</div><div class="c2">🏀</div><div class="c3">🏏</div><div class="c4">🎾</div>
+    </div>
+  </div>
+</div>
+
+<div class="ribbon"><div class="wrap"><span>Team Sports</span><span>Individual Sports</span><span>Fitness Basics</span><span>Safe Play</span><span>Fair Play</span></div></div>
+
+<div class="wrap">
+  <div class="ad">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="1111111111" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+</div>
+
+<section id="categories">
+<div class="wrap">
+  <h2>Four Families of Sport</h2>
+  <p class="lead">Sportora groups sport into simple families so that beginners can see how games are alike and how they differ.</p>
+
+  <div class="cat"><div class="pic p1">⚽</div><div>
+    <h3>Team Ball Games</h3>
+    <p>Football, cricket, basketball, volleyball and hockey rely on teamwork, shared strategy and clear roles. Players learn communication, trust and how to win and lose together.</p>
+    <div class="chips"><span>Football</span><span>Cricket</span><span>Basketball</span><span>Volleyball</span></div>
+  </div></div>
+
+  <div class="cat"><div class="pic p2">🏃</div><div>
+    <h3>Track, Field & Endurance</h3>
+    <p>Running, jumping, throwing and long-distance events measure personal progress. They are easy to start with almost no equipment and are good for building stamina.</p>
+    <div class="chips"><span>Sprinting</span><span>Long distance</span><span>Jumping</span><span>Throwing</span></div>
+  </div></div>
+
+  <div class="cat"><div class="pic p3">🎾</div><div>
+    <h3>Racket & Net Sports</h3>
+    <p>Tennis, badminton, table tennis and squash reward quick reactions, footwork and clever shot choice. They can be played one-on-one or in pairs.</p>
+    <div class="chips"><span>Tennis</span><span>Badminton</span><span>Table tennis</span><span>Squash</span></div>
+  </div></div>
+
+  <div class="cat"><div class="pic p4">🏊</div><div>
+    <h3>Water & Outdoor Sports</h3>
+    <p>Swimming, cycling, hiking and rowing take sport outside the court. They are often gentle on joints but need extra attention to weather, water and route safety.</p>
+    <div class="chips"><span>Swimming</span><span>Cycling</span><span>Hiking</span><span>Rowing</span></div>
+  </div></div>
+</div>
+</section>
+
+<section id="gameday" class="guide">
+<div class="wrap">
+  <h2>Your Game Day Checklist</h2>
+  <p class="lead">Six habits that help players of any level feel ready, stay safe and enjoy the game.</p>
+  <div class="gg">
+    <div class="gc"><b class="n">1</b><h3>Sleep and Eat Well</h3><p>Rest the night before and have a balanced meal a few hours ahead. Avoid trying new foods on the day of an important match.</p></div>
+    <div class="gc"><b class="n">2</b><h3>Hydrate Early</h3><p>Drink water through the day, not just at the start. In hot weather, take regular breaks in the shade.</p></div>
+    <div class="gc"><b class="n">3</b><h3>Warm Up Properly</h3><p>Spend five to ten minutes on light movement, then practise the actions you will use in the game.</p></div>
+    <div class="gc"><b class="n">4</b><h3>Check Your Gear</h3><p>Well-fitting shoes, clean kit and any protective equipment make play safer and more comfortable.</p></div>
+    <div class="gc"><b class="n">5</b><h3>Know the Rules</h3><p>Read the basic rules and any local variations so there are no surprises during play.</p></div>
+    <div class="gc"><b class="n">6</b><h3>Cool Down and Reflect</h3><p>Walk, stretch gently and drink water afterwards. Note what went well and what to practise next.</p></div>
+  </div>
+</div>
+</section>
+
+<section id="read">
+<div class="wrap article">
+  <h2>Why Sport Matters: A Beginner’s Reading Guide</h2>
+  <p>Sport is one of the few activities that people of almost every culture, age and background share. A street cricket match, a school relay race and a stadium final all rest on the same simple ideas: a clear set of rules, a shared goal and the chance to improve. This guide explains those ideas in plain language.</p>
+
+  <h3>Sport and the Body</h3>
+  <p>Regular physical activity supports the heart, muscles and bones, and can help people feel more energetic and relaxed. Health authorities generally encourage people to be active on most days, but the right amount depends on age, health and experience. The best approach for beginners is to start gently, choose something enjoyable and increase effort gradually.</p>
+
+  <!-- AD SLOT 2 (in-article) -->
+  <div class="ad">
+    <ins class="adsbygoogle" style="display:block;text-align:center" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="2222222222"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <h3>Sport and Character</h3>
+  <p>Sport teaches skills that go beyond the field. Players learn to follow rules, handle disappointment, celebrate others’ success and keep trying after a mistake. Coaches and families can support this by praising effort and improvement as much as results.</p>
+  <div class="quote">Fair play means respecting the rules, the opponent, the officials and the spirit of the game.</div>
+
+  <h3>The Story of Modern Sport</h3>
+  <p>People have played organised games for thousands of years, from ancient footraces to ball games in many civilisations. The modern Olympic Games were revived in 1896 in Athens, and since then international competitions have helped many sports share common rules. Today, local clubs, schools and community groups keep sport accessible to everyone.</p>
+
+  <h3>Choosing a Sport That Suits You</h3>
+  <p>Think about what you enjoy and what is available nearby. Some people like the company of a team, while others prefer to improve at their own pace. Trying a few sports casually is a good way to find a fit.</p>
+  <div class="scroll">
+  <table>
+    <tr><th>If you enjoy…</th><th>You might try…</th><th>Good to know</th></tr>
+    <tr><td>Team spirit</td><td>Football, volleyball, cricket</td><td>Local clubs and schools often welcome beginners</td></tr>
+    <tr><td>Personal goals</td><td>Running, swimming, cycling</td><td>Progress is easy to measure over time</td></tr>
+    <tr><td>Quick reactions</td><td>Badminton, table tennis</td><td>Can be played in small spaces</td></tr>
+    <tr><td>Nature</td><td>Hiking, rowing, trail running</td><td>Check weather and route safety first</td></tr>
+  </table>
+  </div>
+
+  <h3>Playing Safely</h3>
+  <ul>
+    <li>Warm up before and cool down after every session.</li>
+    <li>Increase time and intensity gradually and take rest days.</li>
+    <li>Use suitable footwear and protective equipment.</li>
+    <li>Stop and seek advice if you feel pain, dizziness or unwell.</li>
+    <li>Ask a doctor or qualified coach for personal guidance, especially if you have a health concern.</li>
+  </ul>
+
+  <!-- AD SLOT 3 -->
+  <div class="ad">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="3333333333" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <h3>Sport for Every Age</h3>
+  <p>Children benefit from play-based sport that is fun and varied rather than overly competitive. Adults can build routines around work and family, and older players can enjoy low-impact activities such as walking and swimming. Inclusive programmes and adapted sports make it possible for people with different abilities to take part.</p>
+</div>
+</section>
+
+<section id="faq" class="faq">
+<div class="wrap">
+  <h2>Frequently Asked Questions</h2>
+  <p class="lead">Short answers to common questions from new readers.</p>
+  <div class="faq-grid">
+    <details><summary>What is Sportora?</summary><p>Sportora is an educational website that publishes general guides about sport, fitness basics and safe, fair play.</p></details>
+    <details><summary>Which sport should a beginner start with?</summary><p>Start with what you enjoy and can easily access. Walking, swimming, cycling and simple team games are common starting points.</p></details>
+    <details><summary>Do I need expensive equipment?</summary><p>Not at first. Many sports need only comfortable clothing and good shoes. Add specialised gear as your interest grows.</p></details>
+    <details><summary>Is this advice a replacement for a coach or doctor?</summary><p>No. Our content is general and educational. Please read the disclaimer below.</p></details>
+  </div>
+</div>
+</section>
+
+<!-- AD SLOT 4 -->
+<div class="wrap">
+  <div class="ad">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="4444444444" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+</div>
+
+<div class="disc" id="disclaimer">
+<div class="wrap">
+  <h2>Disclaimer</h2>
+  <p>The content on Sportora is provided for general educational and informational purposes only. It is not medical, fitness, nutritional, coaching, legal or other professional advice. Physical activity carries a risk of injury, and individual needs, abilities and health conditions differ. Please consult a qualified doctor, physiotherapist or certified coach before starting or changing any exercise routine, especially if you have a health concern, are pregnant, are older, or are returning after an injury. Stop activity and seek medical help if you feel pain, dizziness or unwell. Sports rules differ between regions, leagues and governing bodies, so please check the official rules for any competition. While we aim for accuracy, we make no guarantees about completeness or results, and we are not responsible for any loss or injury arising from the use of this information. This website displays third-party advertisements, including those served by Google. Advertisers are responsible for their own content, and an ad does not mean we endorse the product or service. We are not responsible for the content of external websites linked from this page.</p>
+</div>
+</div>
+</main>
+
+<footer>
+<div class="wrap">
+  <div class="logo" style="justify-content:center;margin-bottom:6px;color:#fff">Sport<span>ora</span></div>
+  <!-- PRIVACY & TERMS OPTION: apne pages ban jayen to neeche ke href me unke asli links dalo
+       (e.g. https://yourdomain.com/privacy-policy aur https://yourdomain.com/terms-and-conditions) -->
+  <p><a href="#categories">Sports</a><a href="#gameday">Game Day</a><a href="#read">Read</a><a href="#faq">FAQ</a><a href="#disclaimer">Disclaimer</a><a href="/privacy-policy">Privacy Policy</a><a href="/terms-and-conditions">Terms &amp; Conditions</a></p>
+  <p>© 2026 Sportora. All rights reserved.</p>
+</div>
+</footer>
+
+</body>
+</html>
